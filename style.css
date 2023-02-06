@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(45deg,rgb(67,67,117),rgb(67,65,117));
+    color: #fff;
+    width: 100%;
+
+}
+.head{
+    width: 1200px;
+    margin: 0 auto;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+nav{
+    font-size: 20x;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 4px;
+    letter-spacing: 2px;
+    background-color: rgb(67, 182, 182);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+@media screen and (max-width:780px) {
+    .main{
+        display: inline;
+        margin: 0 auto;
+    }
+}
